@@ -22,5 +22,17 @@ let booleanIsLoggedIn =Boolean(isLoggedIn);
 
 let someNumber=33;
 let someNumberType=String(someNumber);
-console.log(someNumberType);
-console.log(typeof someNumberType);
+//console.log(someNumberType);
+//console.log(typeof someNumberType);
+
+/* oparations */
+
+let str1="hello";
+let str2=" ritika"
+let str3=str1+str2;
+//console.log(str3);
+
+
+//the kind of data type will be prent first then it will give ans in same kind of data type
+console.log("1"+2+2);//"1"=>string so o/p=>122;
+console.log(1+2+"2");//1=>number so o/p=>3+"2"=>32;
